@@ -1,16 +1,29 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html> <!-- Declares the document type as HTML5 -->
+<html lang="en"> <!-- Sets the language of the document to English -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Andre's Profile card</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8"> <!-- Sets character encoding to UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures responsive scaling on devices -->
+    <title>Andre's Profile card</title> <!-- Sets the page title in the browser tab -->
+    <link rel="stylesheet" href="style.css"> <!-- Links the external CSS file for styling -->
 </head>
 <body>
-    <h1>Andre</h1>
-    <h2>Software Engineer</h2>
-    <p>
-        Passionate developer with experience in building scalable web applications. Enjoys learning new technologies and collaborating with diverse teams.
-    </p>
+    <div class="profile-card"> <!-- Container for the profile card content -->
+        <!-- Profile image, styled as a circle and centered above the heading -->
+        <img src="img/cat.png" alt="Profile Image" style="width:120px; border-radius:50%; margin-bottom:16px;">
+        <h1>Andre</h1> <!-- Main heading: user's name -->
+        <h2>Software Engineer</h2> <!-- Subheading: user's role -->
+        <p>
+            <!-- Short bio describing the user -->
+            Passionate developer with experience in building scalable web applications. Enjoys learning new technologies and collaborating with diverse teams.
+        </p>
+        <ul>
+            <!-- List of example links (bulleted list) -->
+            <li><a href="https://example.com/">Example Link 1</a></li>
+            <li><a href="https://example.com/">Example Link 2</a></li>
+            <li><a href="https://example.com/">Example Link 3</a></li>
+            <li><a href="https://example.com/">Example Link 4</a></li>
+        </ul>
+        <h3>My Favorite Websites</h3> <!-- Section heading for the links -->
+    </div>
 </body>
 </html>
